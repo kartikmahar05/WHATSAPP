@@ -1,0 +1,47 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: cursive;
+}.brand{
+    display: flex;
+    text-align: center;
+}body{
+    background-color: skyblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}.brand{
+    background-color: #00a884;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+}.brand h1{
+    margin-left: 10px;
+    font-size: 20px;
+    color: white;
+}.brand h1:hover{
+    color: coral;
+}
+.messageArea{
+    display: grid;
+    height: 500px;
+} 
+.chat{
+    width: 800px;
+    max-width: 90%;
+    background-color: white;
+}section.chat{
+    width: 800px;
+    max-width: 90%;
+    padding: 30px;
+}#textarea{
+    width: 100%;
+    color: black;
+    border: none;
+    font-size: 20px;
+    background-color: rgb(169, 233, 169);
+    text-align: center;
+    height: 40px;
+    padding-top: 15px;
+}
